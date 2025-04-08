@@ -4,7 +4,7 @@ public class elseif {
         int x = 8;
         int y = 5;
 
-        if(x<y)
+        if(x<y && y<x)
         System.out.println("Super ");
         else 
         System.out.println("Invalid super");
